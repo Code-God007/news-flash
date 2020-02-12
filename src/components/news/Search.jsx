@@ -38,7 +38,7 @@ export default class Search extends Component {
             <div>
               <div className="card card-body mb-4 p-4">
                 <h1 className="display-4 text-center">
-                  <i className="fas fa-search"></i> Get Latest News
+                  <i className="fas fa-search"></i> Fetch Latest News
                 </h1>
                 <p className="lead text-center">Search any keyword</p>
                 <form onSubmit={this.findNews.bind(this, dispatch)}>
